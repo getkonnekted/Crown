@@ -1,5 +1,5 @@
 const CACHE = 'crown-coup-v3';
-const ASSETS = ['./', './index.html', './play/', './play/index.html', './assets/crown.css', './manifest.webmanifest'];
+const ASSETS = ['./', './index.html', './play/', './play/index.html', './assets/crown.css', './assets/crown-icon.svg', './manifest.webmanifest'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
 });
