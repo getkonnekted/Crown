@@ -36,7 +36,7 @@ Choosing where to eat shouldn't mean starting from zero every time.
 | 🔎 **Find a restaurant** | Search sample listings by name, cuisine, or neighbourhood. |
 | 👑 **Crown a favourite** | Keep one crowned restaurant per cuisine; choosing another replaces the previous pick. |
 | 💾 **Keep your court** | Your selections persist in this browser using local storage. |
-| 📤 **Share your taste** | Share your court or a crowned restaurant, with a clipboard fallback. |
+| 📤 **Share your taste** | Share your court or open a dedicated restaurant page with its own Open Graph title, description, and image. |
 | 🗺️ **Continue in Maps** | Open a restaurant search in Google Maps. |
 | 📱 **Installable shell** | A basic PWA manifest and service worker support installation on compatible browsers. |
 
@@ -71,6 +71,7 @@ Then open **http://localhost:4173**.
 This is an **early MVP**, not a live restaurant database.
 
 - Restaurant listings are sample/demo data; they are not verified live Google Places results.
+- Restaurant card and link-preview images are illustrative Unsplash food photography, not verified photos of the named venues. The app does not scrape Google Maps or call Google Places.
 - There are no accounts, public profiles, friend graph, backend, or cloud sync yet.
 - Restaurant crowns are stored in the current browser, so they do not follow you across devices.
 - Google Maps handoff uses Maps URLs; no Google API key is required for this prototype.
