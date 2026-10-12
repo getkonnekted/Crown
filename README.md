@@ -1,10 +1,10 @@
 <div align="center">
 
-# 👑 CROWN
+# 👑 CROWN & COUP
 
-### Your taste. Your picks. Your restaurant crown.
+### Good food deserves a crown.
 
-**A Lagos-first restaurant discovery companion — crown your favourites, build your personal court, and share your taste.**
+**A Lagos-first restaurant discovery experience — meet the contenders, crown your favourites, and share your food court.**
 
 <br />
 
@@ -15,7 +15,7 @@
 
 <br />
 
-**[🚀 Open Crown](https://crown-ivory-phi.vercel.app) · [🧑‍💻 Explore the repository](https://github.com/getkonnekted/Crown)**
+**[🚀 Explore Crown & Coup](https://crown-ivory-phi.vercel.app) · [🧑‍💻 Explore the repository](https://github.com/getkonnekted/Crown)**
 
 </div>
 
@@ -25,7 +25,7 @@
 
 Choosing where to eat shouldn't mean starting from zero every time.
 
-**Crown** is a mobile-first progressive web app prototype for keeping a personal shortlist of favourite restaurants. Crown one pick per cuisine, revisit your choices, and share them with people who trust your taste.
+**Crown & Coup** is a mobile-first progressive web app prototype for keeping a personal shortlist of favourite restaurants. Crown one pick per cuisine, revisit your choices, and share them with people who trust your taste.
 
 > **The product principle:** your personal recommendations first; broader discovery can come next.
 
@@ -62,7 +62,7 @@ cd Crown
 python -m http.server 4173
 ```
 
-Then open **http://localhost:4173**.
+Then open **http://localhost:4173** for the landing page. Choose **Enter Crown & Coup** to open the app at `/play/`.
 
 > Service workers and installable PWA features require localhost or HTTPS.
 
@@ -90,7 +90,7 @@ The project is in its early prototype stage. Issues and focused suggestions are 
 
 <div align="center">
 
-**👑 Crown your favourites. Share your taste.**
+**👑 Meet the contenders. Crown the winner.**
 
 <sub>Built for a Lagos-first restaurant discovery experience.</sub>
 
