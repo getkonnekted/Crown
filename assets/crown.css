@@ -14,31 +14,3 @@
 
 /* Homepage identity mark */
 .page-home .mark{display:grid;place-items:center;background:var(--plum);color:var(--gold);width:38px;height:38px;border-radius:13px;font-size:19px;font-weight:900}
-
-
-/* Homepage how-it-works carousel */
-.page-home .steps-carousel{max-width:760px;margin:0 auto}
-.page-home .steps-track{position:relative}
-.page-home .steps-carousel .step{min-height:245px;padding:clamp(25px,5vw,42px);background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
-.page-home .steps-carousel .step[hidden]{display:none}
-.page-home .steps-carousel .step-num{width:48px;height:48px;border-radius:15px;background:var(--gold);color:var(--plum);font-size:13px}
-.page-home .steps-carousel .step h3{font-size:clamp(25px,4vw,35px);letter-spacing:-1px;margin:30px 0 10px}
-.page-home .steps-carousel .step p{max-width:500px;color:var(--muted);font-size:15px;line-height:1.8;margin:0}
-.page-home .steps-controls{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:18px}
-.page-home .steps-arrow{min-height:42px;padding:0 15px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font-size:12px;font-weight:800;cursor:pointer}
-.page-home .steps-arrow:disabled{opacity:.38;cursor:not-allowed}
-.page-home .steps-arrow:not(:disabled):hover{border-color:var(--coral)}
-.page-home .steps-pagination{display:flex;align-items:center;justify-content:center;gap:8px}
-.page-home .step-dot{min-width:39px;height:39px;padding:0 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);font-size:11px;font-weight:850;cursor:pointer}
-.page-home .step-dot.is-active{background:var(--plum);border-color:var(--plum);color:var(--gold)}
-.page-home .steps-count{text-align:center;margin-top:13px;color:var(--muted);font-size:9px;font-weight:850;letter-spacing:1.5px}
-.page-home .steps-arrow:focus-visible,.page-home .step-dot:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
-@media(max-width:600px){
- .page-home .steps-carousel .step{min-height:250px;padding:24px}
- .page-home .steps-carousel .step h3{margin-top:25px}
- .page-home .steps-carousel .step p{font-size:13px}
- .page-home .steps-controls{gap:8px}
- .page-home .steps-arrow{padding:0 11px;min-height:40px}
- .page-home .steps-pagination{gap:5px}
- .page-home .step-dot{min-width:34px;height:34px;padding:0 7px}
-}
