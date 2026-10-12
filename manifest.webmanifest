@@ -4,7 +4,7 @@
   "description": "Discover Lagos restaurants, choose your favourites, and crown the winner.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f7f6f1",
-  "theme_color": "#173f30",
+  "background_color": "#faf5ee",
+  "theme_color": "#2b1d35",
   "icons": []
 }
