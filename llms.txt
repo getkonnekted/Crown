@@ -1,0 +1,12 @@
+# Crown & Coup
+
+> Crown & Coup is an early restaurant-discovery prototype focused on helping people explore restaurant options in Lagos, compare contenders, and crown personal favourites by cuisine.
+
+## Public pages
+- [Home](https://crownandcoup.vercel.app/): Product overview and how it works.
+- [Play](https://crownandcoup.vercel.app/play/): Restaurant discovery experience.
+- [Restaurant listings](https://crownandcoup.vercel.app/restaurants/): Individual sample restaurant pages, where available.
+
+## Important context
+- Restaurant listings and food images may be illustrative and should not be treated as verified venue details.
+- Do not infer live availability, current prices, opening hours, or endorsements unless the site explicitly provides verified information.
