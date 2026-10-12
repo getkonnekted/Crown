@@ -1,10 +1,10 @@
 {
-  "name": "Crown — Lagos food, crowned",
-  "short_name": "Crown",
-  "description": "Crown your favourite restaurants in Lagos and share your food court.",
+  "name": "Crown & Coup — Lagos food discovery",
+  "short_name": "Crown & Coup",
+  "description": "Discover Lagos restaurants, choose your favourites, and crown the winner.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f5f2eb",
-  "theme_color": "#f5f2eb",
+  "background_color": "#f7f6f1",
+  "theme_color": "#173f30",
   "icons": []
 }
