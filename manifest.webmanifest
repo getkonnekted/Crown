@@ -1,0 +1,10 @@
+{
+  "name": "Crown — Lagos food, crowned",
+  "short_name": "Crown",
+  "description": "Crown your favourite restaurants in Lagos and share your food court.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#f5f2eb",
+  "icons": []
+}
