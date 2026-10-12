@@ -15,7 +15,7 @@
 
 <br />
 
-**[🚀 Explore Crown & Coup](https://crown-ivory-phi.vercel.app) · [🧑‍💻 Explore the repository](https://github.com/getkonnekted/Crown)**
+**[🚀 Open the homepage](https://crown-ivory-phi.vercel.app) · [🍽️ Enter the app](https://crown-ivory-phi.vercel.app/play/) · [🧑‍💻 Explore the repository](https://github.com/getkonnekted/Crown)**
 
 </div>
 
@@ -38,15 +38,15 @@ Choosing where to eat shouldn't mean starting from zero every time.
 | 💾 **Keep your court** | Your selections persist in this browser using local storage. |
 | 📤 **Share your taste** | Share your court or open a dedicated restaurant page with its own Open Graph title, description, and image. |
 | 🗺️ **Continue in Maps** | Open a restaurant search in Google Maps. |
-| 📱 **Installable shell** | A basic PWA manifest and service worker support installation on compatible browsers. |
+| 📱 **Installable shell** | A shared design system, PWA manifest and service worker support installation on compatible browsers. |
 
 ## 🎨 Product feel
 
 <div align="center">
 
-| 🌲 Deep green | 🍋 Crown lime | 🥛 Warm cream | 🍊 Citrus |
+| 🍇 Deep plum | 🌼 Crown gold | 🥛 Warm cream | 🍅 Tomato coral |
 |:---:|:---:|:---:|:---:|
-| `#255B45` | `#CCF36B` | `#F7F4EA` | `#F28C45` |
+| `#2B1D35` | `#F4C95D` | `#FAF5EE` | `#F36B4F` |
 
 *An editorial, food-forward visual direction built to feel at home on mobile.*
 
