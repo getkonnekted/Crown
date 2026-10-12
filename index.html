@@ -22,7 +22,47 @@
 <header class="wrap nav"><a class="brand" href="/" aria-label="Crown and Coup home" style="text-decoration:none;color:inherit"><span class="mark">C</span><span>Crown <span style="color:var(--coral)">&amp; Coup</span></span></a><nav class="navlinks"><a class="quiet" href="#how">How it works</a><a class="quiet" href="#about">The idea</a><a class="btn" href="/play/">Enter Crown &amp; Coup</a></nav></header>
 <main class="wrap">
 <section class="hero"><div><div class="eyebrow">LAGOS FOOD DISCOVERY, MADE PERSONAL</div><h1>Good food<br>deserves a <em>crown.</em></h1><p>Meet the contenders. Find the places you love. Crown your favourite in every cuisine and build a food court that is entirely yours.</p><div class="ctas"><a class="btn" href="/play/">Find your next crown</a><a class="btn secondary" href="#how">See how it works</a></div><div class="note">A playful way to make your next food decision.</div></div><div class="visual"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=85&amp;w=1200" alt="Illustrative food photography"><div class="visual-label"><small>YOUR TASTE. YOUR RULES.</small><h2>Every cuisine has a champion.</h2><p>Build your list, crown the winner, and compare picks with your people.</p></div></div></section>
-<section class="section" id="how"><div class="section-head"><div><div class="eyebrow">THREE STEPS. YOUR TASTE.</div><h2>How Crown &amp; Coup works.</h2></div><p>No endless scrolling. Turn restaurant discovery into a decision you can own and share.</p></div><div class="steps"><article class="step"><div class="step-num">01</div><h3>Meet the contenders</h3><p>Browse restaurant options and discover places worth putting on your list.</p></article><article class="step"><div class="step-num">02</div><h3>Weigh your options</h3><p>Search by restaurant, neighbourhood or cuisine. Explore the contenders and decide who deserves the title.</p></article><article class="step"><div class="step-num">03</div><h3>Crown your pick</h3><p>Choose a winner for each cuisine, keep your food court close, and share your verdict with friends.</p></article></div></section>
+<section class="section" id="how"><div class="section-head"><div><div class="eyebrow">THREE STEPS. YOUR TASTE.</div><h2>How Crown &amp; Coup works.</h2></div><p>No endless scrolling. Turn restaurant discovery into a decision you can own and share.</p></div><div class="steps-carousel" aria-label="How Crown and Coup works">
+<div class="steps-track" aria-live="polite" aria-atomic="true">
+<article class="step is-active" data-step="0"><div class="step-num">01</div><h3>Meet the contenders</h3><p>Browse restaurant options and discover places worth putting on your list.</p></article>
+<article class="step" data-step="1" hidden><div class="step-num">02</div><h3>Weigh your options</h3><p>Search by restaurant, neighbourhood or cuisine. Explore the contenders and decide who deserves the title.</p></article>
+<article class="step" data-step="2" hidden><div class="step-num">03</div><h3>Crown your pick</h3><p>Choose a winner for each cuisine, keep your food court close, and share your verdict with friends.</p></article>
+</div>
+<div class="steps-controls">
+<button class="steps-arrow" type="button" data-step-prev aria-label="Previous step" disabled>Previous</button>
+<div class="steps-pagination" role="group" aria-label="Choose a step">
+<button type="button" class="step-dot is-active" data-step-to="0" aria-label="Go to step 1" aria-current="step">01</button>
+<button type="button" class="step-dot" data-step-to="1" aria-label="Go to step 2">02</button>
+<button type="button" class="step-dot" data-step-to="2" aria-label="Go to step 3">03</button>
+</div>
+<button class="steps-arrow" type="button" data-step-next aria-label="Next step">Next</button>
+</div>
+<div class="steps-count" data-step-count>STEP 01 OF 03</div>
+</div>
+<script>
+(function(){
+ const carousel=document.querySelector('.steps-carousel');
+ if(!carousel)return;
+ const slides=Array.from(carousel.querySelectorAll('[data-step]'));
+ const dots=Array.from(carousel.querySelectorAll('[data-step-to]'));
+ const prev=carousel.querySelector('[data-step-prev]');
+ const next=carousel.querySelector('[data-step-next]');
+ const count=carousel.querySelector('[data-step-count]');
+ let active=0;
+ function showStep(index){
+  active=Math.max(0,Math.min(slides.length-1,index));
+  slides.forEach((slide,i)=>{const current=i===active;slide.hidden=!current;slide.classList.toggle('is-active',current);});
+  dots.forEach((dot,i)=>{const current=i===active;dot.classList.toggle('is-active',current);if(current)dot.setAttribute('aria-current','step');else dot.removeAttribute('aria-current');});
+  prev.disabled=active===0;
+  next.disabled=active===slides.length-1;
+  count.textContent='STEP '+String(active+1).padStart(2,'0')+' OF '+String(slides.length).padStart(2,'0');
+ }
+ prev.addEventListener('click',()=>showStep(active-1));
+ next.addEventListener('click',()=>showStep(active+1));
+ dots.forEach((dot)=>dot.addEventListener('click',()=>showStep(Number(dot.dataset.stepTo))));
+ showStep(0);
+})();
+</script></section>
 <section class="section" id="about"><div class="feature"><div><div class="eyebrow">A DIFFERENT KIND OF FOOD LIST</div><h2>Your taste, your rules.</h2><p>Crown &amp; Coup is built around your own favourites, not somebody else's ranking. Your court becomes a personal shortlist you can revisit and share.</p><a class="textlink" href="/play/">Build your food court</a></div><div class="feature-list"><div class="feature-item"><span class="dot"></span><div><strong>One favourite per cuisine</strong><p>Give each category a champion, then change your mind whenever you like.</p></div></div><div class="feature-item"><span class="dot"></span><div><strong>Made for sharing</strong><p>Share your court and compare restaurant picks with your friends.</p></div></div><div class="feature-item"><span class="dot"></span><div><strong>Take the next step</strong><p>Open a map for a restaurant when you are ready to visit.</p></div></div></div></div></section>
 <section class="final"><div><h2>Ready to crown a favourite?</h2><p>Your next great food discovery starts with a contender.</p></div><a class="btn" href="/play/">Enter Crown &amp; Coup</a></section>
 </main><footer class="wrap footer"><strong>Crown &amp; Coup</strong><span>An early restaurant-discovery prototype. Listings and food images are illustrative and may not represent verified venue details.</span><span>Made for curious appetites in Lagos.</span></footer>
