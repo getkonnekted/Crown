@@ -40,6 +40,10 @@ Choosing where to eat shouldn't mean starting from zero every time.
 | 🗺️ **Continue in Maps** | Open a restaurant search in Google Maps. |
 | 📱 **Installable shell** | A shared design system, PWA manifest and service worker support installation on compatible browsers. |
 
+## 🎨 Shared design system
+
+The landing page, restaurant discovery app, and every restaurant profile share `assets/crown.css` and the Crown & Coup favicon in `assets/crown-icon.svg`. The palette uses deep plum, warm cream, crown gold, and tomato coral; restaurant imagery is varied by cuisine and remains clearly marked as illustrative.
+
 ## 🎨 Product feel
 
 <div align="center">
